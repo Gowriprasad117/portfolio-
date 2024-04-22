@@ -1,0 +1,383 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(images/picc\ 15.avif);
+    width: 100%;
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   position: relative;
+   font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 30px 0;
+    align-items: center;
+    justify-content: space-between;
+  
+   
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: -3%;
+    margin-left: -2%;
+}
+ul{
+    margin-top: -4%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(248, 250, 250);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+ul li a:hover{
+    color: rgb(4, 4, 4);
+}
+.info{
+    margin-left: 7%;
+    margin-top: 10%;
+    padding-top: 50px;
+    
+}
+.info h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 65px;
+    color: white;
+}
+.info h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+}
+
+.info h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.info a{
+    text-decoration: none;
+    color: rgb(248, 246, 250);
+    background: rgb(166, 112, 197);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .2s ease;
+    box-shadow: 0 0 1rem;
+    color: white;
+}
+.info a:hover{
+    background: rgb(73, 6, 97);
+}
+.icons a{
+    text-decoration: none;
+    color: rgb(210, 195, 218);
+}
+.icons ion-icon{
+    margin-left: 7%;
+    color: rgb(210, 195, 218);
+    margin-right: -60px;
+    font-size: 40px;
+    transition: .4s ease;
+}
+.icons ion-icon:hover{
+    color: rgb(34, 13, 43);
+
+}
+.about{
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   align-items: center;
+   gap: 1.5rem;
+   background-color: rgb(177, 132, 236);
+   height: 90vh;
+
+}
+.about-img img{
+   padding-bottom: 50px;
+   max-width: 630px;
+   height: auto;
+   width: 100%;
+   border-radius: 8px;
+   
+
+}
+.about-text{
+    padding-right: 10px;
+}
+
+    
+
+.about-text h2{
+   font-size: 60px;
+    color: rgb(250, 248, 248);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.about-text h4{
+    font-size: 30px;
+    color: rgb(249, 248, 250);
+    font-weight: 600;
+    line-height: 1.7;
+    margin: 15px 0 30px;
+}
+.about-text p{
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 2rem 0 3rem;
+    color: rgb(249, 247, 250);
+}
+.btn {
+    text-decoration: none;
+    color: rgb(248, 246, 250);
+    background: rgb(119, 36, 228);
+    margin: 26px 0;
+    padding: 10px 18px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .2s ease;
+    box-shadow: 0 0 1rem;
+    color: white;
+}
+.btn:hover{
+    background: rgb(73, 6, 97);
+    color: white;
+}
+.btn {
+    text-decoration: none;
+    color: rgb(210, 195, 218);
+}
+.portfolio{
+    background-color: rgb(160, 102, 235);
+    height: 90vh;
+}
+.portfolio h2{
+    margin-bottom: 5rem;
+    padding-top: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+}
+.portfolio-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 150px;
+}
+.portfolio-container .portfolio-box{
+    flex: 1 1 30rem;
+    background: rgb(123, 53, 216);
+    padding: 3rem 2rem 4rem;
+    border-radius: 1rem;
+    text-align: center;
+    border: .2rem solid rgb(123, 53, 216);
+    transition: .3s ease;
+   height: 400px;
+   width: 400px;
+   box-shadow: 0 0 1rem;
+   color: white;
+}
+.portfolio-container .portfolio-box:hover {
+    border-color: rgb(116, 46, 185);
+    transform: scale(1.02);
+}
+.portfolio-box h2{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.portfolio-box i{
+   font-size: 60px;
+}
+
+.services{
+    background: rgb(143, 76, 231);
+    height: 100vh;
+    
+}
+.services-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2.5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    
+}
+.service-box{
+    background-color: rgb(166, 115, 233);
+    height: 250px;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+    box-shadow: 0 0 1rem;
+    
+}
+
+.service-box:hover {
+    background: rgb(111, 77, 156);
+    color: white;
+    transform: 1.03;
+}
+.service-box .service-info{
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   max-height: 200px;
+   justify-content: center;
+   align-items: center;
+   padding: 5rem;
+}
+.service-info h4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+}
+.services h1{
+    font-size: 60px;
+    text-align: center;
+    padding-top: 50px;
+    
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+.skill-area{
+    background: rgb(134, 57, 235);
+    padding-top: 5%;
+    height: 95vh;
+}
+.custom{
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 100%;
+    column-gap: 2rem;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.section-header{
+    text-align: center;
+    margin-bottom: 60px;
+
+}
+.section-header h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+    font-weight: bold;
+}
+.section-header p{
+ font-size: 20px;
+ color: black;   
+}
+.title-area{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 30px;
+}
+.single-skill{
+    position: relative;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1rem;
+    margin-bottom: 3rem;
+    color: white;
+}    
+.topic{
+    text-transform: uppercase;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.bar{
+    position: absolute;
+    bottom: -.75rem;
+    height: .25rem;
+    background-color: rgb(204, 169, 250);
+}
+.bar-1{
+    width: 95%;
+}
+
+.bar-2{
+    width: 85%;
+}
+
+.bar-3{
+    width: 75%;
+}
+
+.bar-4{
+    width: 90%;
+}
+
+.bar-5{
+    width: 65%;
+}
+
+.bar-6{
+    width: 85%;
+}
+
+.bar-7{
+    width: 75%;
+}
+
+.bar-8{
+    width: 95%;
+}
+
+@media screen and (min-width: 1024px){
+    body{
+        margin: 0;
+    }
+    section{
+        padding: 3rem 0 2rem;
+    }
+    .custom{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
